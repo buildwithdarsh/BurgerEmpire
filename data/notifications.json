@@ -1,0 +1,114 @@
+{
+  "data": [
+    {
+      "id": "notif_1",
+      "type": "order",
+      "title": "Order Out for Delivery!",
+      "body": "Your order BBY-10038 is on its way. Estimated arrival: 15 minutes.",
+      "isRead": false,
+      "metadata": { "orderId": "ord_004" },
+      "createdAt": "2026-03-16T12:07:00Z"
+    },
+    {
+      "id": "notif_2",
+      "type": "loyalty",
+      "title": "You reached Gold Tier!",
+      "body": "Congratulations! You've been upgraded to Gold tier. Enjoy 1.5x coin earnings, priority support, and exclusive rewards.",
+      "isRead": false,
+      "metadata": { "tier": "Gold" },
+      "createdAt": "2026-03-15T18:00:00Z"
+    },
+    {
+      "id": "notif_3",
+      "type": "gift_card",
+      "title": "You received a Gift Card!",
+      "body": "User A sent you a ₹1,000 Burger Empire gift card. Message: \"Happy Birthday! Treat yourself to some burgers!\"",
+      "isRead": false,
+      "metadata": { "giftCardId": "gc_2", "senderName": "User A" },
+      "createdAt": "2026-03-15T10:30:00Z"
+    },
+    {
+      "id": "notif_4",
+      "type": "promo",
+      "title": "Flash Sale: 40% Off Big Baby Meals!",
+      "body": "Today only! Use code BIGDEAL40 at checkout. Valid on orders above ₹200.",
+      "isRead": false,
+      "metadata": { "couponCode": "BIGDEAL40" },
+      "createdAt": "2026-03-16T09:00:00Z"
+    },
+    {
+      "id": "notif_5",
+      "type": "referral",
+      "title": "Referral Success!",
+      "body": "Your friend User A just placed their first order using your referral code. You earned 50 Baby Coins!",
+      "isRead": false,
+      "metadata": { "referralName": "User A", "coinsEarned": 50 },
+      "createdAt": "2026-03-14T16:00:00Z"
+    },
+    {
+      "id": "notif_6",
+      "type": "order",
+      "title": "Order Delivered!",
+      "body": "Your order BBY-10045 has been delivered. Enjoy your healthy meal! You earned 80 Baby Coins (2x Healthy boost).",
+      "isRead": true,
+      "metadata": { "orderId": "ord_011" },
+      "createdAt": "2026-03-14T12:35:00Z"
+    },
+    {
+      "id": "notif_7",
+      "type": "review",
+      "title": "How was your Big Baby Loaded?",
+      "body": "Rate your recent order BBY-10042 and earn 10 Baby Coins. Your feedback helps us improve!",
+      "isRead": true,
+      "metadata": { "orderId": "ord_008", "menuItemId": "mi_big_baby_loaded" },
+      "createdAt": "2026-03-09T10:00:00Z"
+    },
+    {
+      "id": "notif_8",
+      "type": "reservation",
+      "title": "Reservation Reminder",
+      "body": "Don't forget! You have a table for 6 reserved on March 22 at 7:30 PM. See you there!",
+      "isRead": true,
+      "metadata": { "reservationId": "res_1" },
+      "createdAt": "2026-03-16T08:00:00Z"
+    },
+    {
+      "id": "notif_9",
+      "type": "student_pass",
+      "title": "Student Pass Approved!",
+      "body": "Your student verification for Abc University is approved. Enjoy 10% off on every order until June 2027!",
+      "isRead": true,
+      "metadata": { "passId": "sp_001" },
+      "createdAt": "2026-03-05T14:00:00Z"
+    },
+    {
+      "id": "notif_10",
+      "type": "system",
+      "title": "New Feature: Meal Plans!",
+      "body": "Subscribe to meal plans and never miss a meal. Daily Baby, Healthy Week, and Weekend Feast plans now available.",
+      "isRead": true,
+      "metadata": null,
+      "createdAt": "2026-03-01T09:00:00Z"
+    },
+    {
+      "id": "notif_11",
+      "type": "loyalty",
+      "title": "Birthday Reward Unlocked!",
+      "body": "Happy Birthday! We've added 100 Baby Coins to your account. Celebrate with your favourite burger!",
+      "isRead": true,
+      "metadata": { "coinsEarned": 100 },
+      "createdAt": "2025-07-12T00:01:00Z"
+    },
+    {
+      "id": "notif_12",
+      "type": "meal_plan",
+      "title": "Meal Plan Renewal Due",
+      "body": "Your Healthy Week plan renews on March 20. Update your payment method or manage your subscription in the app.",
+      "isRead": true,
+      "metadata": { "subscriptionId": "sub_2", "planId": "mp_2" },
+      "createdAt": "2026-03-13T09:00:00Z"
+    }
+  ],
+  "total": 12,
+  "unreadCount": 5
+}

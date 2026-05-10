@@ -1,0 +1,50 @@
+{
+  "account": {
+    "id": "loy_001",
+    "balance": 1840,
+    "totalEarned": 5250,
+    "totalRedeemed": 3410,
+    "tier": "Gold",
+    "tierProgress": 82,
+    "nextTier": "Platinum",
+    "nextTierAt": 7500,
+    "memberSince": "2024-01-15T10:00:00Z"
+  },
+  "transactions": [
+    { "id": "lt_1", "type": "earned", "points": 80, "description": "Order BBY-10045 (2x Healthy boost)", "orderId": "ord_011", "createdAt": "2026-03-14T12:35:00Z" },
+    { "id": "lt_2", "type": "redeemed", "points": -50, "description": "Referral bonus coins used on BBY-10045", "orderId": "ord_011", "createdAt": "2026-03-14T12:00:00Z" },
+    { "id": "lt_3", "type": "earned", "points": 22, "description": "Order BBY-10044", "orderId": "ord_010", "createdAt": "2026-03-12T21:05:00Z" },
+    { "id": "lt_4", "type": "earned", "points": 41, "description": "Order BBY-10042", "orderId": "ord_008", "createdAt": "2026-03-08T18:38:00Z" },
+    { "id": "lt_5", "type": "earned", "points": 68, "description": "Order BBY-10041 (2x Healthy boost)", "orderId": "ord_007", "createdAt": "2026-03-02T12:48:00Z" },
+    { "id": "lt_6", "type": "redeemed", "points": -200, "description": "Free Burger Empire reward", "rewardId": "rw_5", "createdAt": "2026-02-28T14:00:00Z" },
+    { "id": "lt_7", "type": "earned", "points": 67, "description": "Order BBY-10039", "orderId": "ord_005", "createdAt": "2026-02-14T19:42:00Z" },
+    { "id": "lt_8", "type": "redeemed", "points": -100, "description": "100 coins redeemed on BBY-10039", "orderId": "ord_005", "createdAt": "2026-02-14T19:00:00Z" },
+    { "id": "lt_9", "type": "earned", "points": 88, "description": "Order BBY-10036 (2x Healthy boost)", "orderId": "ord_002", "createdAt": "2026-01-25T13:05:00Z" },
+    { "id": "lt_10", "type": "earned", "points": 45, "description": "Order BBY-10035", "orderId": "ord_001", "createdAt": "2026-01-18T13:38:00Z" },
+    { "id": "lt_11", "type": "bonus", "points": 100, "description": "Birthday bonus - Happy Birthday!", "createdAt": "2025-07-12T00:00:00Z" },
+    { "id": "lt_12", "type": "bonus", "points": 50, "description": "Referral bonus - User A signed up", "referralName": "User A", "createdAt": "2025-11-20T14:30:00Z" },
+    { "id": "lt_13", "type": "bonus", "points": 50, "description": "Referral bonus - User B signed up", "referralName": "User B", "createdAt": "2025-10-05T11:00:00Z" },
+    { "id": "lt_14", "type": "bonus", "points": 50, "description": "Referral bonus - User C signed up", "referralName": "User C", "createdAt": "2025-09-15T16:45:00Z" },
+    { "id": "lt_15", "type": "bonus", "points": 50, "description": "Referral bonus - User D signed up", "referralName": "User D", "createdAt": "2025-08-22T09:30:00Z" },
+    { "id": "lt_16", "type": "bonus", "points": 50, "description": "Referral bonus - User E signed up", "referralName": "User E", "createdAt": "2025-06-10T13:00:00Z" },
+    { "id": "lt_17", "type": "bonus", "points": 50, "description": "Referral bonus - User F signed up", "referralName": "User F", "createdAt": "2025-04-18T17:20:00Z" },
+    { "id": "lt_18", "type": "bonus", "points": 50, "description": "Referral bonus - User G signed up", "referralName": "User G", "createdAt": "2025-02-14T10:15:00Z" },
+    { "id": "lt_19", "type": "earned", "points": 10, "description": "Review bonus - reviewed The OG Baby", "createdAt": "2026-01-20T11:00:00Z" },
+    { "id": "lt_20", "type": "earned", "points": 10, "description": "Review bonus - reviewed Grilled Veggie Baby", "createdAt": "2026-02-01T15:30:00Z" },
+    { "id": "lt_21", "type": "earned", "points": 10, "description": "Review bonus - reviewed Big Baby Loaded", "createdAt": "2026-03-10T09:00:00Z" },
+    { "id": "lt_22", "type": "expired", "points": -200, "description": "200 coins expired (unused for 6 months)", "createdAt": "2025-12-31T23:59:59Z" },
+    { "id": "lt_23", "type": "redeemed", "points": -50, "description": "Free Baby Fries reward", "rewardId": "rw_1", "createdAt": "2025-05-10T13:00:00Z" },
+    { "id": "lt_24", "type": "redeemed", "points": -75, "description": "Free Delivery reward", "rewardId": "rw_2", "createdAt": "2025-08-15T19:00:00Z" },
+    { "id": "lt_25", "type": "redeemed", "points": -100, "description": "Free Shake reward", "rewardId": "rw_3", "createdAt": "2025-11-01T12:30:00Z" },
+    { "id": "lt_26", "type": "bonus", "points": 25, "description": "First order bonus", "createdAt": "2024-01-15T10:30:00Z" },
+    { "id": "lt_27", "type": "bonus", "points": 50, "description": "Welcome bonus", "createdAt": "2024-01-15T10:00:00Z" }
+  ],
+  "rewards": [
+    { "id": "rw_1", "slug": "free-fries", "name": "Free Baby Fries", "pointsCost": 50, "type": "free_item", "isActive": true, "description": "Redeem for a free regular Baby Fries with any order" },
+    { "id": "rw_2", "slug": "free-delivery", "name": "Free Delivery", "pointsCost": 75, "type": "free_delivery", "isActive": true, "description": "Get free delivery on your next order" },
+    { "id": "rw_3", "slug": "free-shake", "name": "Free Shake", "pointsCost": 100, "type": "free_item", "isActive": true, "description": "Choose any shake from the menu - on the house" },
+    { "id": "rw_4", "slug": "free-smoothie", "name": "Free Green Smoothie", "pointsCost": 150, "type": "free_item", "isActive": true, "description": "A refreshing Green Smoothie, completely free" },
+    { "id": "rw_5", "slug": "free-burger", "name": "Free Burger Empire", "pointsCost": 200, "type": "free_item", "isActive": true, "description": "Any Burger Empire from the menu - your pick" },
+    { "id": "rw_6", "slug": "free-combo", "name": "Free Baby Combo", "pointsCost": 350, "type": "free_item", "isActive": true, "description": "A full Baby Combo meal - burger, fries & drink" }
+  ]
+}

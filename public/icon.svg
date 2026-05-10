@@ -1,0 +1,23 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Burger Empire — Favicon/App Icon -->
+  <circle cx="40" cy="40" r="38" fill="#1A1A1A"/>
+  <!-- Crown -->
+  <path d="M24 22L28 28L32 24L36 28L40 20L44 28L48 24L52 28L56 22V32H24V22Z" fill="#EB7A29"/>
+  <circle cx="24" cy="21" r="2" fill="#EB7A29"/>
+  <circle cx="40" cy="19" r="2" fill="#EB7A29"/>
+  <circle cx="56" cy="21" r="2" fill="#EB7A29"/>
+  <!-- Top bun -->
+  <path d="M22 44C22 36 28 32 40 32C52 32 58 36 58 44H22Z" fill="#F4943E"/>
+  <!-- Seeds -->
+  <circle cx="34" cy="37" r="1.2" fill="#FFF5E0" opacity="0.85"/>
+  <circle cx="40" cy="35" r="1.2" fill="#FFF5E0" opacity="0.85"/>
+  <circle cx="46" cy="37" r="1.2" fill="#FFF5E0" opacity="0.85"/>
+  <!-- Cheese -->
+  <path d="M21 45H59L58 47H22L21 45Z" fill="#FFD43B"/>
+  <!-- Patty -->
+  <rect x="22" y="48" width="36" height="5" rx="2.5" fill="#9A1E29"/>
+  <!-- Lettuce -->
+  <path d="M21 55C25 52 29 56 33 53C37 56 41 52 45 55C49 52 53 55 59 54" stroke="#4AA056" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <!-- Bottom bun -->
+  <path d="M22 57H58C58 57 56 64 40 64C24 64 22 57 22 57Z" fill="#F4943E"/>
+</svg>

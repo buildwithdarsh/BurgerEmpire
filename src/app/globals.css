@@ -1,0 +1,286 @@
+@import "tailwindcss";
+
+/* ===== SAFE AREA INSETS ===== */
+:root {
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-left: env(safe-area-inset-left, 0px);
+  --safe-right: env(safe-area-inset-right, 0px);
+}
+
+/* ===== CSS CUSTOM PROPERTIES ===== */
+:root {
+  --c-bg: #EB7A29;
+  --c-page-bg: #FAF8F4;
+  --c-surface: #1A1A1A;
+  --c-surface-2: #2C2C2C;
+  --c-text-primary: #FFFFFF;
+  --c-text-on-bg: #1A1A1A;
+  --c-accent: #9A1E29;
+  --c-border: #EEEEEE;
+  --c-glow: rgba(235, 122, 41, 0.45);
+
+  --font-hero: var(--nf-space-grotesk), sans-serif;
+  --font-heading: var(--nf-poppins), sans-serif;
+  --font-body: var(--nf-dm-sans), sans-serif;
+  --font-price: var(--nf-poppins), sans-serif;
+
+  /* Direct font references for fixed usage */
+  --font-space-grotesk: var(--nf-space-grotesk), sans-serif;
+  --font-playfair: var(--nf-playfair), serif;
+  --font-poppins: var(--nf-poppins), sans-serif;
+  --font-dm-sans: var(--nf-dm-sans), sans-serif;
+  --font-cormorant: var(--nf-cormorant), serif;
+  --font-nunito: var(--nf-nunito), sans-serif;
+
+  --bounce-entry: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --smooth-exit: cubic-bezier(0.4, 0, 0.2, 1);
+  --spring-snap: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  --mode-transition: cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+[data-mode="healthy"] {
+  --c-bg: #4AA056;
+  --c-page-bg: #F2F7F2;
+  --c-surface: #FFFFFF;
+  --c-surface-2: #F5F5EE;
+  --c-text-primary: #1C2B1E;
+  --c-text-on-bg: #F5F0E8;
+  --c-accent: #4AA056;
+  --c-border: #D8EAD8;
+  --c-glow: rgba(74, 160, 86, 0.40);
+
+  --font-hero: var(--nf-playfair), serif;
+  --font-heading: var(--nf-cormorant), serif;
+  --font-body: var(--nf-nunito), sans-serif;
+  --font-price: var(--nf-poppins), sans-serif;
+}
+
+/* ===== BASE ===== */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: clip;
+}
+
+html {
+  background-color: #1A1A1A;
+}
+
+
+body {
+  background-color: var(--c-page-bg);
+  color: #1A1A1A;
+  transition: background-color 0.5s ease;
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes breathe {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.03); }
+}
+
+@keyframes slideInUp {
+  0% { transform: translateY(20px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes badgePop {
+  0% { transform: scale(0); }
+  70% { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
+
+@keyframes rippleBurst {
+  0% { transform: scale(0); opacity: 0.6; }
+  100% { transform: scale(4); opacity: 0; }
+}
+
+@keyframes bannerSlideIn {
+  0% { transform: translateY(100%); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes jiggle {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-3px); }
+  75% { transform: translateX(3px); }
+}
+
+@keyframes drawLine {
+  0% { transform: scaleX(0); }
+  100% { transform: scaleX(1); }
+}
+
+@keyframes loaderBounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+@keyframes loaderDot {
+  0%, 100% { opacity: 0.3; transform: scale(0.8); }
+  50% { opacity: 1; transform: scale(1.2); }
+}
+
+@keyframes steamRise {
+  0%   { transform: translateY(0) scaleX(1);  opacity: 0.7; }
+  50%  { transform: translateY(-18px) scaleX(1.2); opacity: 0.4; }
+  100% { transform: translateY(-36px) scaleX(0.8); opacity: 0; }
+}
+
+@keyframes stepSlideIn {
+  0%   { transform: translateY(10px); opacity: 0; }
+  100% { transform: translateY(0);    opacity: 1; }
+}
+
+@keyframes stepFadeOut {
+  0%   { transform: translateY(0);     opacity: 1; }
+  100% { transform: translateY(-10px); opacity: 0; }
+}
+
+@keyframes spinRing {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.15; transform: scale(1); }
+  50%       { opacity: 0.35; transform: scale(1.08); }
+}
+
+/* ===== SCROLLBAR ===== */
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* ===== REDUCED MOTION ===== */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ===== FLOATING PATTERN OVERLAY ===== */
+/* Applied per-section so the pattern sits between background and content */
+.has-pattern {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+
+.has-pattern::before {
+  content: '';
+  position: absolute;
+  inset: -280px;
+  background-image: var(--pattern-url);
+  background-repeat: repeat;
+  background-size: 280px 280px;
+  pointer-events: none;
+  z-index: -1;
+  opacity: 0.45;
+  animation: patternDrift 60s linear infinite;
+  will-change: transform;
+}
+
+@keyframes patternDrift {
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(280px, 280px); }
+}
+
+/* ===== MOBILE TOUCH OPTIMIZATIONS ===== */
+@media (max-width: 767px) {
+  /* Eliminate 300ms tap delay and prevent double-tap zoom */
+  button, a, [role="button"] {
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
+
+  /* Smooth scroll momentum on iOS */
+  [class*="overflow-y-auto"],
+  [class*="overflow-auto"] {
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Prevent iOS input zoom (fires when font-size < 16px) */
+  input, select, textarea {
+    font-size: 16px;
+  }
+}
+
+/* ===== SMALL PHONE SCALING (< 376px, e.g. iPhone SE) ===== */
+@media (max-width: 376px) {
+  html,body {
+    font-size: 95%;
+  }
+}
+
+/* ===== SUB-400px OVERRIDES ===== */
+@media (max-width: 400px) {
+  /* Hero CTAs: compact to stay in one row */
+  .hero-cta-row {
+    gap: 0.5rem;
+  }
+  .hero-cta-row a {
+    padding: 0.75rem 1.25rem;
+    font-size: 0.75rem;
+  }
+
+  /* PromiseStrip: 1 column */
+  .promise-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* LoyaltyBanner CTAs: stack vertically, equal width */
+  .loyalty-cta-row {
+    flex-direction: column;
+  }
+  .loyalty-cta-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* ===== TOAST & FEEDBACK ANIMATIONS ===== */
+@keyframes toastSlideIn {
+  0% { opacity: 0; transform: translateY(-8px) scale(0.96); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(4px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* ===== GLOBAL BUTTON BORDER RADIUS ===== */
+/* Mobile: rounded-md (6px), Desktop: rounded-lg (8px) */
+/* Excludes circular buttons (rounded-full), toggles, and badges */
+button:not([class*="rounded-full"]):not([role="switch"]),
+a[class*="py-"][class*="px-"]:not([class*="rounded-full"]) {
+  border-radius: 0.5rem !important;
+}
+
+@media (min-width: 768px) {
+  button:not([class*="rounded-full"]):not([role="switch"]),
+  a[class*="py-"][class*="px-"]:not([class*="rounded-full"]) {
+    border-radius: 0.75rem !important;
+  }
+}
+
+/* ===== UTILITY CLASSES ===== */
+.font-hero { font-family: var(--font-hero); }
+.font-heading { font-family: var(--font-heading); }
+.font-body { font-family: var(--font-body); }
+.font-price { font-family: var(--font-price); }
+
+/* Bottom padding to clear the mobile BottomNav (h-16 + safe-area + buffer = 80px) */
+@media (max-width: 767px) {
+  .pb-mobile-nav { padding-bottom: 80px; }
+}

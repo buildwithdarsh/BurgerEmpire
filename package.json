@@ -1,0 +1,43 @@
+{
+  "name": "burger-empire-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 7001",
+    "clean:next": "rm -rf .next",
+    "dev:clean": "npm run clean:next && next dev -p 7001",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "db:seed": "echo 'Prisma removed — seed via Central Backend'",
+    "deploy": "./scripts/deploy.sh",
+    "deploy:setup": "./scripts/deploy.sh setup"
+  },
+  "dependencies": {
+    "@buildwithdarsh/sdk": "^0.13.2",
+    "critters": "^0.0.23",
+    "framer-motion": "^11.15.0",
+    "next": "^15.1.0",
+    "next-cloudinary": "^6.17.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-intersection-observer": "^9.13.0",
+    "uuid": "^13.0.0",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/uuid": "^10.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^15.1.0",
+    "postcss": "^8.5.0",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.7.0"
+  }
+}

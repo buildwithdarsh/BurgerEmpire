@@ -1,0 +1,103 @@
+{
+  "plans": [
+    {
+      "id": "mp_1",
+      "name": "Daily Baby",
+      "description": "One Burger Empire + fries delivered every day. Perfect for the daily lunch fix.",
+      "price": 1999,
+      "interval": "monthly",
+      "items": [
+        { "itemId": "item_1", "itemName": "The OG Baby", "quantity": 1 },
+        { "itemId": "item_7", "itemName": "Baby Fries", "quantity": 1 }
+      ],
+      "isActive": true,
+      "savings": "Save ₹450/month vs ordering individually"
+    },
+    {
+      "id": "mp_2",
+      "name": "Healthy Week",
+      "description": "5 Healthy Mode meals per week. Macro-tracked, fresh ingredients, no compromises.",
+      "price": 2499,
+      "interval": "monthly",
+      "items": [
+        { "itemId": "item_16", "itemName": "Grilled Veggie Baby", "quantity": 1 },
+        { "itemId": "item_17", "itemName": "Protein Power Bowl", "quantity": 1 }
+      ],
+      "isActive": true,
+      "savings": "Save ₹680/month + earn 2x Baby Coins on every meal"
+    },
+    {
+      "id": "mp_3",
+      "name": "Weekend Feast",
+      "description": "Big Baby Meal for two every Saturday. Date night sorted.",
+      "price": 999,
+      "interval": "monthly",
+      "items": [
+        { "itemId": "item_5", "itemName": "Big Baby Classic", "quantity": 2 },
+        { "itemId": "item_8", "itemName": "Crunchy Onion Rings", "quantity": 1 }
+      ],
+      "isActive": true,
+      "savings": "Save ₹200/month on your weekend treat"
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": "sub_1",
+      "planId": "mp_1",
+      "planName": "Daily Baby",
+      "status": "active",
+      "nextDelivery": "2026-03-17T12:00:00Z",
+      "deliveriesCompleted": 15,
+      "totalSaved": 225,
+      "deliveryAddress": {
+        "label": "Work",
+        "line1": "Abc Tower, Block B, 3rd Floor",
+        "line2": "Main Road",
+        "city": "Abc City",
+        "pincode": "100002"
+      },
+      "preferredTime": "12:00",
+      "createdAt": "2026-03-01T10:00:00Z",
+      "renewsAt": "2026-04-01T00:00:00Z"
+    },
+    {
+      "id": "sub_2",
+      "planId": "mp_2",
+      "planName": "Healthy Week",
+      "status": "paused",
+      "pausedAt": "2026-03-10T08:00:00Z",
+      "pauseReason": "Travelling for a week",
+      "resumesAt": "2026-03-20T00:00:00Z",
+      "deliveriesCompleted": 8,
+      "totalSaved": 272,
+      "deliveryAddress": {
+        "label": "Work",
+        "line1": "Abc Tower, Block B, 3rd Floor",
+        "line2": "Main Road",
+        "city": "Abc City",
+        "pincode": "100002"
+      },
+      "preferredTime": "12:30",
+      "createdAt": "2026-02-10T10:00:00Z",
+      "renewsAt": "2026-04-10T00:00:00Z"
+    },
+    {
+      "id": "sub_3",
+      "planId": "mp_3",
+      "planName": "Weekend Feast",
+      "status": "expired",
+      "deliveriesCompleted": 4,
+      "totalSaved": 200,
+      "deliveryAddress": {
+        "label": "Home",
+        "line1": "42, Abc Apartments",
+        "line2": "Near Main Road",
+        "city": "Abc City",
+        "pincode": "100001"
+      },
+      "preferredTime": "19:30",
+      "createdAt": "2025-12-01T10:00:00Z",
+      "expiredAt": "2026-01-01T00:00:00Z"
+    }
+  ]
+}

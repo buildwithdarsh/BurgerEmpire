@@ -1,0 +1,14 @@
+[
+  { "time": "11:00 AM", "available": true, "capacity": 10 },
+  { "time": "11:30 AM", "available": true, "capacity": 8 },
+  { "time": "12:00 PM", "available": true, "capacity": 5 },
+  { "time": "12:30 PM", "available": false, "capacity": 0 },
+  { "time": "1:00 PM", "available": true, "capacity": 3 },
+  { "time": "1:30 PM", "available": true, "capacity": 7 },
+  { "time": "2:00 PM", "available": true, "capacity": 10 },
+  { "time": "6:00 PM", "available": true, "capacity": 6 },
+  { "time": "6:30 PM", "available": true, "capacity": 4 },
+  { "time": "7:00 PM", "available": false, "capacity": 0 },
+  { "time": "7:30 PM", "available": true, "capacity": 8 },
+  { "time": "8:00 PM", "available": true, "capacity": 10 }
+]

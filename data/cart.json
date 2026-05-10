@@ -1,0 +1,30 @@
+{
+  "id": "cart_demo_001",
+  "variantType": "classic",
+  "items": [
+    {
+      "id": "cli_1",
+      "itemId": "item_1",
+      "sizeVariationId": null,
+      "quantity": 2,
+      "variantType": "classic",
+      "options": [{ "id": "clo_1", "optionId": "opt_cheese", "quantity": 1 }]
+    },
+    {
+      "id": "cli_2",
+      "itemId": "item_7",
+      "sizeVariationId": null,
+      "quantity": 1,
+      "variantType": "classic",
+      "options": []
+    },
+    {
+      "id": "cli_3",
+      "itemId": "item_10",
+      "sizeVariationId": null,
+      "quantity": 1,
+      "variantType": "classic",
+      "options": []
+    }
+  ]
+}

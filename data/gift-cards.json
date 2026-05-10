@@ -1,0 +1,63 @@
+[
+  {
+    "id": "gc_1",
+    "code": "BBY-GIFT-AX7K",
+    "balance": 350,
+    "originalAmount": 500,
+    "isActive": true,
+    "purchasedBy": "self",
+    "recipientName": null,
+    "message": null,
+    "createdAt": "2026-01-10T14:00:00Z",
+    "expiresAt": "2027-01-10T00:00:00Z"
+  },
+  {
+    "id": "gc_2",
+    "code": "BBY-GIFT-M2PQ",
+    "balance": 1000,
+    "originalAmount": 1000,
+    "isActive": true,
+    "purchasedBy": "User A",
+    "recipientName": "Abc User",
+    "message": "Happy Birthday! Treat yourself to some burgers!",
+    "createdAt": "2025-07-12T00:00:00Z",
+    "expiresAt": "2027-07-12T00:00:00Z"
+  },
+  {
+    "id": "gc_3",
+    "code": "BBY-GIFT-R9TZ",
+    "balance": 0,
+    "originalAmount": 200,
+    "isActive": false,
+    "purchasedBy": "self",
+    "recipientName": null,
+    "message": null,
+    "usedOn": "2025-12-15T19:30:00Z",
+    "createdAt": "2025-11-01T10:00:00Z",
+    "expiresAt": "2026-11-01T00:00:00Z"
+  },
+  {
+    "id": "gc_4",
+    "code": "BBY-GIFT-K5WN",
+    "balance": 125,
+    "originalAmount": 250,
+    "isActive": true,
+    "purchasedBy": "self",
+    "recipientName": null,
+    "message": null,
+    "createdAt": "2026-02-01T11:00:00Z",
+    "expiresAt": "2026-12-31T00:00:00Z"
+  },
+  {
+    "id": "gc_5",
+    "code": "BBY-GIFT-P3JL",
+    "balance": 100,
+    "originalAmount": 100,
+    "isActive": true,
+    "purchasedBy": "self",
+    "recipientName": "User B",
+    "message": "Thanks for the help with the project!",
+    "createdAt": "2026-03-15T10:00:00Z",
+    "expiresAt": "2027-03-15T00:00:00Z"
+  }
+]

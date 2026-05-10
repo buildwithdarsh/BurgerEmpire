@@ -1,0 +1,30 @@
+{
+  "name": "Burger Empire",
+  "short_name": "Burger Empire",
+  "description": "Burgers that love you back. Order online.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF8F4",
+  "theme_color": "#EB7A29",
+  "orientation": "portrait",
+  "categories": ["food", "restaurants"],
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Order Online",
+      "url": "/order-online",
+      "description": "Order Burger Empire online"
+    },
+    {
+      "name": "Find Us",
+      "url": "/find-us",
+      "description": "Find the nearest Burger Empire outlet"
+    }
+  ],
+  "screenshots": [
+    { "src": "/images/screenshot-home.jpg", "sizes": "390x844", "type": "image/jpg" }
+  ]
+}

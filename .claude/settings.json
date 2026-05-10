@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /Users/alex/Dev/Personal/Darsh Gupta/BurgerEmpire/node_modules/@buildwithdarsh/sdk -type f \\\\\\(-name *.ts -o -name *.tsx -o -name *.js \\\\\\))"
+    ]
+  }
+}

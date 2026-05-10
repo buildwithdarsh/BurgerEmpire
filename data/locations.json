@@ -1,0 +1,8 @@
+[
+  { "id": "loc_1", "name": "Burger Empire City Center", "slug": "burger-empire-city-center-abc-city", "address": "B-99, Near Main Garden, Abc Nagar", "city": "Abc City", "pincode": "100001", "lat": 20.0000, "lng": 70.0000, "email": "hello@build.withdarsh.com", "isActive": true, "isPrimary": true },
+  { "id": "loc_2", "name": "Burger Empire Lashkar", "slug": "burger-empire-lashkar-abc-city", "address": "Sector 2, Area B", "city": "Abc City", "pincode": "100002", "lat": 20.0100, "lng": 70.0100, "email": "hello@build.withdarsh.com", "isActive": true, "isPrimary": false },
+  { "id": "loc_3", "name": "Burger Empire Mahalgaon", "slug": "burger-empire-mahalgaon-abc-city", "address": "Abc Petrol Pump, Main Road", "city": "Abc City", "pincode": "100003", "lat": 20.0200, "lng": 70.0200, "email": "hello@build.withdarsh.com", "isActive": true, "isPrimary": false },
+  { "id": "loc_4", "name": "Burger Empire DD Nagar", "slug": "burger-empire-dd-nagar-abc-city", "address": "Near City Park, Abc Nagar", "city": "Abc City", "pincode": "100004", "lat": 20.0300, "lng": 70.0300, "email": "hello@build.withdarsh.com", "isActive": true, "isPrimary": false },
+  { "id": "loc_5", "name": "Burger Empire Morar", "slug": "burger-empire-morar-abc-city", "address": "Opposite Abc School, Area C", "city": "Abc City", "pincode": "100005", "lat": 20.0400, "lng": 70.0400, "email": "hello@build.withdarsh.com", "isActive": true, "isPrimary": false },
+  { "id": "loc_6", "name": "Burger Empire Kila Road", "slug": "burger-empire-kila-road-abc-city", "address": "Fort Road, Abc City", "city": "Abc City", "pincode": "100006", "lat": 20.0500, "lng": 70.0500, "email": "hello@build.withdarsh.com", "isActive": true, "isPrimary": false }
+]

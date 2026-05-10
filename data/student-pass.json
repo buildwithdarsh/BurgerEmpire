@@ -1,0 +1,14 @@
+{
+  "hasPass": true,
+  "pass": {
+    "id": "sp_001",
+    "status": "active",
+    "college": "Abc University",
+    "studentId": "ABC2024-CS-0001",
+    "discountPercent": 10,
+    "totalSaved": 842,
+    "ordersWithDiscount": 23,
+    "verifiedAt": "2026-03-05T14:00:00Z",
+    "expiresAt": "2027-06-30T00:00:00Z"
+  }
+}

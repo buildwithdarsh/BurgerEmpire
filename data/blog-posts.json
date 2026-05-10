@@ -1,0 +1,74 @@
+[
+  {
+    "id": "blog_1",
+    "slug": "why-burger-empire-uses-only-fresh-ingredients",
+    "title": "Why Burger Empire Uses Only Fresh Ingredients",
+    "excerpt": "From farm to bun, here's how we keep things real at Burger Empire.",
+    "body": "<p>At Burger Empire, we believe that great food starts with great ingredients. Every single patty, bun, and sauce is made fresh daily at our central kitchen in Abc City. We source our vegetables from local farms within 50km of the city, ensuring peak freshness and supporting the community that supports us.</p><p>Our buns are baked in-house every morning — no preservatives, no shortcuts. The milk buns get their signature softness from fresh whole milk sourced from a local dairy cooperative. Even our sauces are made from scratch: the baby sauce that tops The OG Baby uses a blend of roasted tomatoes, caramelized onions, and a secret spice mix that took us six months to perfect.</p><p>We know fresh costs more. But one bite of a Burger Empire and you'll taste the difference. That's a promise we make with every single order.</p>",
+    "author": "Burger Empire Team",
+    "category": "behind-the-scenes",
+    "imageUrl": "https://images.unsplash.com/photo-1466637574441-749b8f19452f?w=800&h=400&fit=crop",
+    "publishedAt": "2026-03-01T09:00:00Z",
+    "readTime": 3
+  },
+  {
+    "id": "blog_2",
+    "slug": "the-story-behind-the-og-baby",
+    "title": "The Story Behind The OG Baby",
+    "excerpt": "How a tiny smash burger became Abc City's most-ordered item.",
+    "body": "<p>The OG Baby wasn't always on the menu. In fact, it almost didn't make the cut. When we were testing recipes in early 2024, the original prototype was a full-sized burger. But during a late-night tasting session, our founder accidentally made a smaller patty — and everyone in the room agreed it was better. Smaller, crispier edges. More sauce-to-patty ratio. More fun to eat.</p><p>The name came naturally. It was our first burger, our baby. The pickled onions were inspired by a street food stall in a nearby city, and the toasted milk bun was the result of 47 different bun trials (yes, we counted). At just ₹69, we wanted it to be something anyone could enjoy — students, families, late-night snackers.</p><p>Today, The OG Baby accounts for nearly 40% of all orders. It's the burger that built Burger Empire, and it's still made with the same love and the same recipe as day one.</p>",
+    "author": "Burger Empire Team",
+    "category": "brand-story",
+    "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&h=400&fit=crop",
+    "publishedAt": "2026-02-15T09:00:00Z",
+    "readTime": 4
+  },
+  {
+    "id": "blog_3",
+    "slug": "5-reasons-to-try-healthy-mode",
+    "title": "5 Reasons to Try Healthy Mode",
+    "excerpt": "Same taste, better macros. Here's why Healthy Mode is worth the switch.",
+    "body": "<p>We get it — burgers aren't exactly health food. But what if they could be? That's the idea behind Healthy Mode, our parallel menu that reimagines every Burger Empire item with better nutrition without sacrificing flavour. Here are five reasons to give it a shot:</p><p><strong>1. Real nutrition data.</strong> Every Healthy Mode item shows exact calories, protein, fats, and carbs. No guessing. <strong>2. Multigrain buns.</strong> Our whole wheat brioche has 40% more fibre and 30% less sugar than the classic bun. <strong>3. Grilled, not fried.</strong> All patties are grilled on a flat-top instead of deep-fried. <strong>4. 2x Baby Coins.</strong> Every Healthy Mode order earns double loyalty points. <strong>5. You won't miss the classic.</strong> In blind taste tests, 7 out of 10 customers couldn't tell the difference.</p><p>Switch to Healthy Mode from the toggle at the top of the menu. Your body (and your Baby Coins balance) will thank you.</p>",
+    "author": "Burger Empire Team",
+    "category": "health",
+    "imageUrl": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&h=400&fit=crop",
+    "publishedAt": "2026-02-28T09:00:00Z",
+    "readTime": 3
+  },
+  {
+    "id": "blog_4",
+    "slug": "student-life-x-burger-empire-the-perfect-match",
+    "title": "Student Life x Burger Empire: The Perfect Match",
+    "excerpt": "Budget-friendly burgers, student discounts, and late-night delivery. We've got you.",
+    "body": "<p>College life in Abc City runs on tight budgets and tighter deadlines. That's exactly why we built Burger Empire with students in mind. The OG Baby at ₹69 and the Baby Combo at ₹149 are priced so you don't have to think twice. Add the Student Pass (10% off every order) and you're eating well without breaking the bank.</p><p>We deliver to every major college area in Abc City — local colleges, and more. Our average delivery time to campus zones is under 25 minutes, and we stay open until midnight for those late-night study sessions (or let's be honest, gaming marathons).</p><p>Getting your Student Pass is simple: just verify your enrollment number and college name in the app. The discount applies automatically on every order for the entire academic year. Over 2,000 students in Abc City already have theirs. Don't miss out.</p>",
+    "author": "Burger Empire Team",
+    "category": "community",
+    "imageUrl": "https://images.unsplash.com/photo-1523050854058-8df90110c5f1?w=800&h=400&fit=crop",
+    "publishedAt": "2026-03-10T09:00:00Z",
+    "readTime": 3
+  },
+  {
+    "id": "blog_5",
+    "slug": "how-baby-coins-changed-my-ordering-habits",
+    "title": "How Baby Coins Changed My Ordering Habits",
+    "excerpt": "A Gold-tier member shares how the loyalty program turned casual orders into smart savings.",
+    "body": "<p>When I first signed up for Burger Empire, I didn't think much about Baby Coins. Fifty welcome coins, cool, whatever. But after a few months, I noticed something: those coins were adding up fast. Especially with Healthy Mode's 2x boost, a single order was netting me 60-80 coins.</p><p>The turning point was when I redeemed 200 coins for a free Big Baby Loaded. That's a ₹199 burger — completely free. I'd earned those coins just by ordering what I was already eating. No special effort, no hoops to jump through.</p><p>Now I'm strategic about it. I order in Healthy Mode when I can (double coins, better macros — win-win). I leave reviews for an easy 10 coins each. I've referred 14 friends — that's 700 bonus coins right there. Last month I hit Gold tier, which means even faster coin earning.</p><p>My advice? Don't let coins expire. Check your balance regularly, redeem rewards before they pile up, and always, always order in Healthy Mode when the 2x boost is active. Your future self will thank you when you're eating a free combo on a Tuesday.</p>",
+    "author": "Abc U. - Gold Tier Member",
+    "category": "community",
+    "imageUrl": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=400&fit=crop",
+    "publishedAt": "2026-03-12T09:00:00Z",
+    "readTime": 4
+  },
+  {
+    "id": "blog_6",
+    "slug": "top-10-combos-under-300",
+    "title": "Top 10 Combos Under ₹300",
+    "excerpt": "Maximum flavour, minimum spend. Our best budget-friendly combo picks for every craving.",
+    "body": "<p>Who says great food has to be expensive? At Burger Empire, some of our most delicious combinations come in well under ₹300. Here are our top picks:</p><p><strong>1. The Classic Duo (₹148)</strong> — 2x OG Baby. Simple, iconic, unbeatable. <strong>2. Student Special (₹149)</strong> — Baby Combo with a burger, fries, and drink. <strong>3. Cheese Lover (₹208)</strong> — Cheese Baby + Baby Fries + Extra Cheese addon. <strong>4. Healthy Start (₹129)</strong> — Grilled Veggie Baby in Healthy Mode. Light, fresh, and earns 2x coins. <strong>5. Shake & Fries (₹208)</strong> — Chocolate Malt Shake + Baby Fries. The perfect snack combo.</p><p><strong>6. Double Trouble (₹198)</strong> — 2x Cheese Baby. Cheese on cheese on cheese. <strong>7. Power Lunch (₹189)</strong> — Protein Power Bowl in Healthy Mode. Filling, nutritious, macro-friendly. <strong>8. Ring Master (₹158)</strong> — OG Baby + Crunchy Onion Rings. Crispy meets crispy. <strong>9. Berry Bliss (₹188)</strong> — OG Baby + Strawberry Bliss Shake. Sweet meets savoury. <strong>10. The ₹69 Hero</strong> — Just one OG Baby. Sometimes perfection needs no sidekick.</p><p>Pro tip: activate your Student Pass for an extra 10% off, and order in Healthy Mode to earn double Baby Coins. A ₹200 healthy order earns you 40 coins — that's almost a free fries reward!</p>",
+    "author": "Burger Empire Team",
+    "category": "tips",
+    "imageUrl": "https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?w=800&h=400&fit=crop",
+    "publishedAt": "2026-03-14T09:00:00Z",
+    "readTime": 5
+  }
+]

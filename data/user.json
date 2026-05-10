@@ -1,0 +1,22 @@
+{
+  "id": "usr_demo_001",
+  "name": "Abc User",
+  "email": "abc@example.com",
+  "phone": "+91 90000 00000",
+  "isGuest": false,
+  "isPhoneVerified": true,
+  "isEmailVerified": true,
+  "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face",
+  "referralCode": "ABC2024",
+  "dateOfBirth": "2000-01-01",
+  "gender": "male",
+  "tier": "Gold",
+  "totalOrders": 47,
+  "totalSpent": 18540,
+  "preferredMode": "classic",
+  "preferredPayment": "online",
+  "defaultAddressId": "addr_1",
+  "studentPassActive": true,
+  "mealPlanActive": true,
+  "createdAt": "2024-01-15T10:00:00Z"
+}

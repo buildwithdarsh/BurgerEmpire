@@ -1,0 +1,5 @@
+[
+  { "id": "promo_1", "title": "Weekend Big Baby Fest", "type": "discount", "config": { "discountPercent": 20, "applicableCategories": ["cat_2"], "minOrderAmount": 200 }, "isActive": true, "priority": 1 },
+  { "id": "promo_2", "title": "Free Fries on ₹300+", "type": "freebie", "config": { "freeItemId": "item_7", "minOrderAmount": 300 }, "isActive": true, "priority": 2 },
+  { "id": "promo_3", "title": "2x Baby Coins on Healthy Orders", "type": "loyalty_boost", "config": { "multiplier": 2, "applicableModes": ["healthy"] }, "isActive": true, "priority": 3 }
+]

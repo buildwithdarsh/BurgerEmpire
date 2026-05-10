@@ -1,0 +1,103 @@
+[
+  {
+    "id": "tkt_1",
+    "subject": "Missing item in order BBY-10042",
+    "description": "I ordered a Cheese Baby with Extra Cheese but it was not in the delivery bag.",
+    "category": "order_issue",
+    "priority": "high",
+    "status": "resolved",
+    "orderId": "ord_008",
+    "messages": [
+      {
+        "id": "msg_1",
+        "body": "Hi, I just received my order BBY-10042 and the Cheese Baby with Extra Cheese is missing from the bag. I only got the 2 OG Babys and the fries. Can you help?",
+        "sender": "customer",
+        "createdAt": "2026-03-08T19:00:00Z"
+      },
+      {
+        "id": "msg_2",
+        "body": "Hi! I'm really sorry about the missing item. I've checked with the kitchen and confirmed the oversight. We've credited 100 Baby Coins to your account as compensation, and a fresh Cheese Baby with Extra Cheese is being prepared right now. It should reach you within 25 minutes.",
+        "sender": "support",
+        "senderName": "Agent A - Support Team",
+        "createdAt": "2026-03-08T19:08:00Z"
+      },
+      {
+        "id": "msg_3",
+        "body": "That's great, thank you! Really appreciate the quick response.",
+        "sender": "customer",
+        "createdAt": "2026-03-08T19:12:00Z"
+      },
+      {
+        "id": "msg_4",
+        "body": "The replacement Cheese Baby has been delivered. Once again, sorry for the inconvenience. Enjoy your meal! We've also added a Free Delivery voucher to your account for your next order. Is there anything else I can help with?",
+        "sender": "support",
+        "senderName": "Agent A - Support Team",
+        "createdAt": "2026-03-08T19:35:00Z"
+      }
+    ],
+    "resolution": "100 Baby Coins credited + replacement item delivered + Free Delivery voucher issued",
+    "createdAt": "2026-03-08T19:00:00Z",
+    "updatedAt": "2026-03-08T19:35:00Z",
+    "resolvedAt": "2026-03-08T19:35:00Z"
+  },
+  {
+    "id": "tkt_2",
+    "subject": "Feedback on the new Protein Power Bowl",
+    "description": "Wanted to share some thoughts on the new Protein Power Bowl from the healthy menu.",
+    "category": "feedback",
+    "priority": "low",
+    "status": "open",
+    "orderId": null,
+    "messages": [
+      {
+        "id": "msg_5",
+        "body": "Hey team! I've been ordering the Protein Power Bowl regularly and I love it. Just a small suggestion - it would be amazing if you could add a tofu option as a protein add-on alongside the paneer. Also, the portion of quinoa could be slightly more generous. Other than that, it's easily my favourite healthy menu item. Keep it up!",
+        "sender": "customer",
+        "createdAt": "2026-03-13T11:00:00Z"
+      },
+      {
+        "id": "msg_6",
+        "body": "Hi! Thanks so much for the thoughtful feedback - it really helps us improve. I've forwarded both suggestions (tofu add-on and quinoa portion) to our menu development team. They're actually working on expanding the healthy menu add-ons next month, so your timing is perfect. We'll keep you posted! Thanks for being such a loyal customer.",
+        "sender": "support",
+        "senderName": "Agent B - Support Team",
+        "createdAt": "2026-03-13T14:30:00Z"
+      }
+    ],
+    "createdAt": "2026-03-13T11:00:00Z",
+    "updatedAt": "2026-03-13T14:30:00Z"
+  },
+  {
+    "id": "tkt_3",
+    "subject": "Late delivery for order BBY-10039",
+    "description": "My Valentine's Day order was delivered 20 minutes after the estimated time.",
+    "category": "delivery_issue",
+    "priority": "medium",
+    "status": "resolved",
+    "orderId": "ord_005",
+    "messages": [
+      {
+        "id": "msg_7",
+        "body": "Hi, my order BBY-10039 was supposed to arrive by 7:25 PM but it came at 7:42 PM. It was a Valentine's Day dinner so the timing was important. The food was still warm thankfully, but the wait was frustrating.",
+        "sender": "customer",
+        "createdAt": "2026-02-14T19:50:00Z"
+      },
+      {
+        "id": "msg_8",
+        "body": "Hi, I completely understand your frustration, especially on Valentine's Day. I can see the delay was caused by high order volume in your area. This isn't the experience we want for you. I've added a Free Delivery coupon (FREEDELIVERY) to your account for your next 3 orders.",
+        "sender": "support",
+        "senderName": "Agent A - Support Team",
+        "createdAt": "2026-02-14T20:05:00Z"
+      },
+      {
+        "id": "msg_9",
+        "body": "Thanks, that's very generous. The food itself was great as always - the Big Baby Loaded with extra patty is incredible. Just the timing was off. Appreciate the quick resolution!",
+        "sender": "customer",
+        "createdAt": "2026-02-14T20:15:00Z"
+      }
+    ],
+    "resolution": "Free Delivery coupon (FREEDELIVERY) issued for next 3 orders",
+    "createdAt": "2026-02-14T19:50:00Z",
+    "updatedAt": "2026-02-14T20:15:00Z",
+    "resolvedAt": "2026-02-14T20:15:00Z"
+  }
+]

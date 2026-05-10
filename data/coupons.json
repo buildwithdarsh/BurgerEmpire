@@ -1,0 +1,5 @@
+[
+  { "valid": true, "code": "WELCOME50", "discountType": "flat", "discountValue": 50, "discountAmount": 50, "message": "₹50 off on your order!" },
+  { "valid": true, "code": "HEALTHY20", "discountType": "percent", "discountValue": 20, "discountAmount": 0, "message": "20% off on Healthy Mode orders" },
+  { "valid": true, "code": "BIGBABY", "discountType": "flat", "discountValue": 75, "discountAmount": 75, "message": "₹75 off on any Big Baby burger" }
+]

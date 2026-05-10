@@ -1,0 +1,8 @@
+[
+  { "id": "help_1", "slug": "how-to-order", "title": "How to Place an Order", "body": "<p>Browse our menu, add items to your cart, and proceed to checkout. You can pay online or choose Cash on Delivery.</p><p>Delivery typically takes 20-40 minutes depending on your location and order volume.</p>", "category": "ordering" },
+  { "id": "help_2", "slug": "baby-coins", "title": "How Baby Coins Work", "body": "<p>Earn Baby Coins on every order. 1 coin = ₹1. Redeem coins for free items, delivery waivers, and more from the Rewards page.</p><p>Healthy Mode orders earn 2x coins!</p>", "category": "loyalty" },
+  { "id": "help_3", "slug": "cancel-order", "title": "How to Cancel an Order", "body": "<p>You can cancel within 5 minutes of placing your order from the order tracking page. After that, cancellation may not be possible as preparation begins immediately.</p>", "category": "ordering" },
+  { "id": "help_4", "slug": "student-pass", "title": "Student Pass FAQ", "body": "<p>The Student Pass gives verified students an automatic discount on every order. Apply from the Student Pass page with your enrollment number and institution name.</p>", "category": "offers" },
+  { "id": "help_5", "slug": "payment-methods", "title": "Accepted Payment Methods", "body": "<p>We accept UPI, credit/debit cards, net banking, EMI, and Cash on Delivery. All online payments are processed securely via Razorpay.</p>", "category": "payments" },
+  { "id": "help_6", "slug": "delivery-areas", "title": "Delivery Areas", "body": "<p>We deliver within 10km of any of our 6 Abc City outlets. Enter your address at checkout to check availability. Free delivery on orders above ₹499.</p>", "category": "delivery" }
+]

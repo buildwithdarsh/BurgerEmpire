@@ -1,0 +1,5 @@
+[
+  { "id": "addr_1", "label": "Home", "line1": "42, Abc Apartments", "line2": "Near Main Road", "city": "Abc City", "state": "Abc State", "pincode": "100001", "country": "IN", "lat": 20.0000, "lng": 70.0000, "isDefault": true },
+  { "id": "addr_2", "label": "Work", "line1": "Abc Tower, Block B, 3rd Floor", "line2": "Main Road", "city": "Abc City", "state": "Abc State", "pincode": "100002", "country": "IN", "lat": 20.0100, "lng": 70.0100, "isDefault": false },
+  { "id": "addr_3", "label": "Mom's Place", "line1": "15, Abc Colony", "line2": "Near City Park", "city": "Abc City", "state": "Abc State", "pincode": "100003", "country": "IN", "lat": 20.0200, "lng": 70.0200, "isDefault": false }
+]
